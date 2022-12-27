@@ -1,0 +1,7 @@
+tensorflow
+keras
+numpy
+requests
+scikit-learn
+imutils
+bs4
