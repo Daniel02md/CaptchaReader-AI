@@ -27,7 +27,7 @@ def signUp(name:str, e_mail:str, phone:str, plan_opt: int) -> bool:
         "nome": name,
         "email":  e_mail ,
         "EditarCelular": f'({phone[0:2]}) {phone[2:6]}-{phone[6:-1]}',
-        "Operadora": "[CANAISHD+SEMADULTO]" if plan_opt == 0 else "[CANAISHD+ADULTO]",
+        "Operadora": "*******" if plan_opt == 0 else "*********",
         "captcha":"" ,
         "r": "nqzva"
     }
